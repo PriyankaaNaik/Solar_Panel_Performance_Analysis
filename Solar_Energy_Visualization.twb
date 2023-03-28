@@ -1,0 +1,770 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Solar_Energy' inline='true' name='federated.0163x1c1d4vdyz1111q0p1tlsbhm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Solar_Energy' name='textscan.1ielb6s02z6zz016po2qb1t0fgnz'>
+            <connection class='textscan' directory='C:/Users/Priyanka Naik/Downloads/Pasion et al dataset.csv' filename='Solar_Energy.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ielb6s02z6zz016po2qb1t0fgnz' name='Solar_Energy.csv' table='[Solar_Energy#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Location' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='integer' name='Time' ordinal='2' />
+            <column datatype='real' name='Latitude' ordinal='3' />
+            <column datatype='real' name='Longitude' ordinal='4' />
+            <column datatype='integer' name='Altitude' ordinal='5' />
+            <column datatype='real' name='YRMODAHRMI' ordinal='6' />
+            <column datatype='integer' name='Month' ordinal='7' />
+            <column datatype='integer' name='Hour' ordinal='8' />
+            <column datatype='real' name='Season' ordinal='9' />
+            <column datatype='real' name='Humidity' ordinal='10' />
+            <column datatype='real' name='AmbientTemp' ordinal='11' />
+            <column datatype='real' name='PolyPwr' ordinal='12' />
+            <column datatype='integer' name='Wind.Speed' ordinal='13' />
+            <column datatype='real' name='Visibility' ordinal='14' />
+            <column datatype='real' name='Pressure' ordinal='15' />
+            <column datatype='integer' name='Cloud.Ceiling' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ielb6s02z6zz016po2qb1t0fgnz' name='Solar_Energy.csv' table='[Solar_Energy#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Location' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='integer' name='Time' ordinal='2' />
+            <column datatype='real' name='Latitude' ordinal='3' />
+            <column datatype='real' name='Longitude' ordinal='4' />
+            <column datatype='integer' name='Altitude' ordinal='5' />
+            <column datatype='real' name='YRMODAHRMI' ordinal='6' />
+            <column datatype='integer' name='Month' ordinal='7' />
+            <column datatype='integer' name='Hour' ordinal='8' />
+            <column datatype='real' name='Season' ordinal='9' />
+            <column datatype='real' name='Humidity' ordinal='10' />
+            <column datatype='real' name='AmbientTemp' ordinal='11' />
+            <column datatype='real' name='PolyPwr' ordinal='12' />
+            <column datatype='integer' name='Wind.Speed' ordinal='13' />
+            <column datatype='real' name='Visibility' ordinal='14' />
+            <column datatype='real' name='Pressure' ordinal='15' />
+            <column datatype='integer' name='Cloud.Ceiling' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Altitude</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Altitude]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Altitude</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YRMODAHRMI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[YRMODAHRMI]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>YRMODAHRMI</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hour]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Hour</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Season</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Season]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Season</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Humidity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Humidity]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Humidity</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AmbientTemp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AmbientTemp]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>AmbientTemp</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PolyPwr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PolyPwr]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>PolyPwr</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind.Speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wind.Speed]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Wind.Speed</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Visibility</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Visibility]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Visibility</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pressure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pressure]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Pressure</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cloud.Ceiling</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cloud.Ceiling]</local-name>
+            <parent-name>[Solar_Energy.csv]</parent-name>
+            <remote-alias>Cloud.Ceiling</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Altitude]' role='dimension' semantic-role='[State].[Name]' type='ordinal' />
+      <column caption='Ambient Temp' datatype='real' name='[AmbientTemp]' role='measure' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+        <semantic-values semantic-role='[County].[Name]'>
+          <semantic-value key='&quot;Camp Murray&quot;' value='&quot;Washington&quot;' />
+          <semantic-value key='&quot;Grissom&quot;' value='&quot;Granville&quot;' />
+          <semantic-value key='&quot;Hill Weber&quot;' value='&quot;Summit&quot;' />
+          <semantic-value key='&quot;JDMT&quot;' value='&quot;Des Moines&quot;' />
+          <semantic-value key='&quot;Kahului&quot;' value='&quot;Maui&quot;' />
+          <semantic-value key='&quot;Malmstrom&quot;' value='&quot;Cascade&quot;' />
+          <semantic-value key='&quot;March AFB&quot;' value='&quot;Riverside&quot;' />
+          <semantic-value key='&quot;MNANG&quot;' value='&quot;Ramsey&quot;' />
+          <semantic-value key='&quot;Offutt&quot;' value='&quot;Sarpy&quot;' />
+          <semantic-value key='&quot;Peterson&quot;' value='&quot;Utah&quot;' />
+          <semantic-value key='&quot;USAFA&quot;' value='&quot;El Paso&quot;' />
+        </semantic-values>
+      </column>
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Poly Pwr' datatype='real' name='[PolyPwr]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Season]' role='dimension' semantic-role='' type='ordinal' />
+      <column caption='Yrmodahrmi' datatype='real' name='[YRMODAHRMI]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Solar_Energy.csv' datatype='table' name='[__tableau_internal_object_id__].[Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE]' role='measure' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='Attribute' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[attr:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:Forecast Indicator:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Estimate&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Forecast Indicator:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Estimate&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Location (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hill Weber, MNANG, USAFA&quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Camp Murray&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' type='shape' />
+          <encoding attr='color' field='[none:Location:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Hill Weber&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;USAFA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Peterson&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Grissom&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Malmstrom&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;March AFB&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kahului&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Travis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Camp Murray&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;JDMT&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Offutt&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MNANG&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='%null%' />
+        <semantic-value key='[County].[Name]' value='%null%' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Solar_Energy.csv' id='Solar_Energy.csv_14B2D18B29C047848CD096CDBB0FC9DE'>
+            <properties context=''>
+              <relation connection='textscan.1ielb6s02z6zz016po2qb1t0fgnz' name='Solar_Energy.csv' table='[Solar_Energy#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Location' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='integer' name='Time' ordinal='2' />
+                  <column datatype='real' name='Latitude' ordinal='3' />
+                  <column datatype='real' name='Longitude' ordinal='4' />
+                  <column datatype='integer' name='Altitude' ordinal='5' />
+                  <column datatype='real' name='YRMODAHRMI' ordinal='6' />
+                  <column datatype='integer' name='Month' ordinal='7' />
+                  <column datatype='integer' name='Hour' ordinal='8' />
+                  <column datatype='real' name='Season' ordinal='9' />
+                  <column datatype='real' name='Humidity' ordinal='10' />
+                  <column datatype='real' name='AmbientTemp' ordinal='11' />
+                  <column datatype='real' name='PolyPwr' ordinal='12' />
+                  <column datatype='integer' name='Wind.Speed' ordinal='13' />
+                  <column datatype='real' name='Visibility' ordinal='14' />
+                  <column datatype='real' name='Pressure' ordinal='15' />
+                  <column datatype='integer' name='Cloud.Ceiling' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_E6EC67D230BD4215BCE460FB6EA5308D]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Solar_Energy ' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Location' />
+        <param name='target' value='Solar_Energy ' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Solar_Energy '>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Solar_Energy' name='federated.0163x1c1d4vdyz1111q0p1tlsbhm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0163x1c1d4vdyz1111q0p1tlsbhm'>
+            <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Altitude]' role='dimension' semantic-role='[State].[Name]' type='ordinal' />
+            <column caption='Ambient Temp' datatype='real' name='[AmbientTemp]' role='measure' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column datatype='string' name='[Location]' role='dimension' semantic-role='[City].[Name]' type='nominal'>
+              <semantic-values semantic-role='[County].[Name]'>
+                <semantic-value key='&quot;Camp Murray&quot;' value='&quot;Washington&quot;' />
+                <semantic-value key='&quot;Grissom&quot;' value='&quot;Granville&quot;' />
+                <semantic-value key='&quot;Hill Weber&quot;' value='&quot;Summit&quot;' />
+                <semantic-value key='&quot;JDMT&quot;' value='&quot;Des Moines&quot;' />
+                <semantic-value key='&quot;Kahului&quot;' value='&quot;Maui&quot;' />
+                <semantic-value key='&quot;Malmstrom&quot;' value='&quot;Cascade&quot;' />
+                <semantic-value key='&quot;March AFB&quot;' value='&quot;Riverside&quot;' />
+                <semantic-value key='&quot;MNANG&quot;' value='&quot;Ramsey&quot;' />
+                <semantic-value key='&quot;Offutt&quot;' value='&quot;Sarpy&quot;' />
+                <semantic-value key='&quot;Peterson&quot;' value='&quot;Utah&quot;' />
+                <semantic-value key='&quot;USAFA&quot;' value='&quot;El Paso&quot;' />
+              </semantic-values>
+            </column>
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Poly Pwr' datatype='real' name='[PolyPwr]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Pressure]' role='measure' type='quantitative' />
+            <column-instance column='[Altitude]' derivation='None' name='[none:Altitude:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Latitude]' derivation='None' name='[none:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Location]' derivation='None' name='[none:Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Longitude]' derivation='None' name='[none:Longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PolyPwr]' derivation='None' name='[none:PolyPwr:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AmbientTemp]' derivation='Sum' name='[sum:AmbientTemp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pressure]' derivation='Sum' name='[sum:Pressure:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Location:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Camp Murray&quot;</bucket>
+              <bucket>&quot;Grissom&quot;</bucket>
+              <bucket>&quot;Hill Weber&quot;</bucket>
+              <bucket>&quot;JDMT&quot;</bucket>
+              <bucket>&quot;Kahului&quot;</bucket>
+              <bucket>&quot;Malmstrom&quot;</bucket>
+              <bucket>&quot;March AFB&quot;</bucket>
+              <bucket>&quot;MNANG&quot;</bucket>
+              <bucket>&quot;Offutt&quot;</bucket>
+              <bucket>&quot;Peterson&quot;</bucket>
+              <bucket>&quot;Travis&quot;</bucket>
+              <bucket>&quot;USAFA&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Longitude:qk]' field-type='quantitative' max='-6274886.1516390946' min='-18527846.543787383' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Latitude:qk]' field-type='quantitative' max='7240926.3989324812' min='-742446.06263835635' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Location:nk]' />
+              <lod column='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[sum:AmbientTemp:qk]' />
+              <lod column='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[sum:Pressure:qk]' />
+              <lod column='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:PolyPwr:qk]' />
+              <lod column='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Altitude:ok]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Location:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Location:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Latitude:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Latitude:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Longitude:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Longitude:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Altitude:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Altitude:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Ambient Temp: </run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[sum:AmbientTemp:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Pressure:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[sum:Pressure:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Poly Pwr:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:PolyPwr:qk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7691160440444946' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Latitude:qk]</rows>
+        <cols>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{426181E8-6CD9-45CC-8E60-69DDF58CD9F6}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Solar_Energy '>
+      <cards>
+        <edge name='left'>
+          <strip size='240'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Location:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Altitude:ok]</field>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:AmbientTemp:qk]</field>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Latitude:qk]</field>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Longitude:qk]</field>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Month:qk]</field>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Pressure:qk]</field>
+            <field>[federated.0163x1c1d4vdyz1111q0p1tlsbhm].[none:Season:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{F7708043-DB5B-4756-A183-E10F5DF60D52}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Solar_Energy ' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
